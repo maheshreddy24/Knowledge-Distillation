@@ -98,6 +98,10 @@ python masked_main_kd.py
 
 Configuration is handled inside scripts or via lightweight argument edits.
 
+## Future improvements
+* The code base is a little redundant at this point, would love to improve the structure.
+* Planning to add the results after distillation from various methods.
+
 ## Notes
 
 * This repo is experimental and iterative
