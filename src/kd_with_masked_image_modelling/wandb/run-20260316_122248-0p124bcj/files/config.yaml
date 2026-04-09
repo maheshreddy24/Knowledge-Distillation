@@ -1,0 +1,86 @@
+_wandb:
+    value:
+        cli_version: 0.25.0
+        e:
+            1eadmdsd7vbadlx7gij6wz513kfqzqgf:
+                args:
+                    - --output_dir
+                    - generation_loss
+                codePath: src/extended_kd/main.py
+                codePathLocal: main.py
+                cpu_count: 20
+                cpu_count_logical: 28
+                cudaVersion: "13.1"
+                disk:
+                    /:
+                        total: "982820896768"
+                        used: "828355457024"
+                email: maheshreddy.t@zebu.ai
+                executable: /home/system/miniconda3/envs/dl/bin/python3
+                git:
+                    commit: ef458f1c4c1617cbf1323856220a94d0cf3abcb2
+                    remote: https://github.com/maheshzebu/dynamic_slam.git
+                gpu: NVIDIA GeForce RTX 5070 Ti
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Blackwell
+                      cudaCores: 8960
+                      memoryTotal: "17094934528"
+                      name: NVIDIA GeForce RTX 5070 Ti
+                      uuid: GPU-0b7cd37c-caa3-5c85-fca2-39d6b6ebc448
+                host: system
+                memory:
+                    total: "33400901632"
+                os: Linux-6.8.0-101-generic-x86_64-with-glibc2.35
+                program: /media/system/ZERBUIS_EXT_STOR/dynamic_slam/src/extended_kd/main.py
+                python: CPython 3.10.19
+                root: /media/system/ZERBUIS_EXT_STOR/dynamic_slam/src/extended_kd
+                startedAt: "2026-03-16T06:52:48.497169Z"
+                writerId: 1eadmdsd7vbadlx7gij6wz513kfqzqgf
+        m: []
+        python_version: 3.10.19
+        t:
+            "1":
+                - 1
+                - 5
+                - 11
+                - 41
+                - 49
+                - 53
+                - 63
+                - 71
+                - 98
+                - 105
+            "2":
+                - 1
+                - 5
+                - 11
+                - 41
+                - 49
+                - 53
+                - 63
+                - 71
+                - 98
+                - 105
+            "3":
+                - 13
+                - 16
+            "4": 3.10.19
+            "5": 0.25.0
+            "6": 5.2.0
+            "12": 0.25.0
+            "13": linux-x86_64
+batch_size:
+    value: 360
+dataset:
+    value: ImageNet
+epochs:
+    value: 100
+learning_rate:
+    value: 0.0005
+model:
+    value: vit_tiny
+warmup_ratio:
+    value: 0.05
+weight_decay:
+    value: 0.05

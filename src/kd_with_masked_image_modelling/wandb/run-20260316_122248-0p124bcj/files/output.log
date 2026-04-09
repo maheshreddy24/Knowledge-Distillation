@@ -1,0 +1,121 @@
+[38;5;247mic[39m[38;5;245m|[39m[38;5;245m [39m[38;5;247margs[39m[38;5;245m.[39m[38;5;247mresume[39m[38;5;245m:[39m[38;5;245m [39m[38;5;100mFalse[39m
+2026-03-16 12:22:50,101 - INFO -
+Epoch 0/100
+  0%|                                                                                                                                       | 0/3559 [00:06<?, ?batch/s]
+Traceback (most recent call last):
+  File "/media/system/ZERBUIS_EXT_STOR/dynamic_slam/src/extended_kd/main.py", line 41, in <module>
+    main(args)
+  File "/media/system/ZERBUIS_EXT_STOR/dynamic_slam/src/extended_kd/main.py", line 33, in main
+    optimiser.train()
+  File "/media/system/ZERBUIS_EXT_STOR/dynamic_slam/src/extended_kd/optimisation.py", line 157, in train
+    student_output, student_features = self.student(input_batch)
+  File "/home/system/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/system/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/media/system/ZERBUIS_EXT_STOR/dynamic_slam/src/extended_kd/models.py", line 97, in forward
+    projected_features = self.student(x) # bs, 257,192
+  File "/home/system/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/system/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/media/system/ZERBUIS_EXT_STOR/dynamic_slam/src/extended_kd/models.py", line 71, in forward
+    student_out = self.student(x)   # [B, 257, 192]
+  File "/home/system/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/system/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/media/system/ZERBUIS_EXT_STOR/dynamic_slam/src/extended_kd/vit_tiny.py", line 189, in forward
+    features = self.model(x)
+  File "/home/system/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/system/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/media/system/ZERBUIS_EXT_STOR/dynamic_slam/src/extended_kd/vit_tiny.py", line 168, in forward
+    x = self.transformer_encoder(x)
+  File "/home/system/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/system/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/system/.local/lib/python3.10/site-packages/torch/nn/modules/container.py", line 253, in forward
+    input = module(input)
+  File "/home/system/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/system/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/media/system/ZERBUIS_EXT_STOR/dynamic_slam/src/extended_kd/vit_tiny.py", line 122, in forward
+    x = x + self.mha(self.ln1(x))
+  File "/home/system/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/system/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/media/system/ZERBUIS_EXT_STOR/dynamic_slam/src/extended_kd/vit_tiny.py", line 104, in forward
+    out = torch.cat([head(x) for head in self.heads], dim=-1)
+  File "/media/system/ZERBUIS_EXT_STOR/dynamic_slam/src/extended_kd/vit_tiny.py", line 104, in <listcomp>
+    out = torch.cat([head(x) for head in self.heads], dim=-1)
+  File "/home/system/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/system/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/media/system/ZERBUIS_EXT_STOR/dynamic_slam/src/extended_kd/vit_tiny.py", line 88, in forward
+    attn = attn / (Q.size(-1) ** 0.5)
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 92.00 MiB. GPU 0 has a total capacity of 15.46 GiB of which 50.88 MiB is free. Including non-PyTorch memory, this process has 14.72 GiB memory in use. Of the allocated memory 14.21 GiB is allocated by PyTorch, and 238.25 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Traceback (most recent call last):
+  File "/media/system/ZERBUIS_EXT_STOR/dynamic_slam/src/extended_kd/main.py", line 41, in <module>
+    main(args)
+  File "/media/system/ZERBUIS_EXT_STOR/dynamic_slam/src/extended_kd/main.py", line 33, in main
+    optimiser.train()
+  File "/media/system/ZERBUIS_EXT_STOR/dynamic_slam/src/extended_kd/optimisation.py", line 157, in train
+    student_output, student_features = self.student(input_batch)
+  File "/home/system/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/system/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/media/system/ZERBUIS_EXT_STOR/dynamic_slam/src/extended_kd/models.py", line 97, in forward
+    projected_features = self.student(x) # bs, 257,192
+  File "/home/system/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/system/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/media/system/ZERBUIS_EXT_STOR/dynamic_slam/src/extended_kd/models.py", line 71, in forward
+    student_out = self.student(x)   # [B, 257, 192]
+  File "/home/system/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/system/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/media/system/ZERBUIS_EXT_STOR/dynamic_slam/src/extended_kd/vit_tiny.py", line 189, in forward
+    features = self.model(x)
+  File "/home/system/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/system/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/media/system/ZERBUIS_EXT_STOR/dynamic_slam/src/extended_kd/vit_tiny.py", line 168, in forward
+    x = self.transformer_encoder(x)
+  File "/home/system/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/system/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/system/.local/lib/python3.10/site-packages/torch/nn/modules/container.py", line 253, in forward
+    input = module(input)
+  File "/home/system/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/system/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/media/system/ZERBUIS_EXT_STOR/dynamic_slam/src/extended_kd/vit_tiny.py", line 122, in forward
+    x = x + self.mha(self.ln1(x))
+  File "/home/system/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/system/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/media/system/ZERBUIS_EXT_STOR/dynamic_slam/src/extended_kd/vit_tiny.py", line 104, in forward
+    out = torch.cat([head(x) for head in self.heads], dim=-1)
+  File "/media/system/ZERBUIS_EXT_STOR/dynamic_slam/src/extended_kd/vit_tiny.py", line 104, in <listcomp>
+    out = torch.cat([head(x) for head in self.heads], dim=-1)
+  File "/home/system/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/system/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/media/system/ZERBUIS_EXT_STOR/dynamic_slam/src/extended_kd/vit_tiny.py", line 88, in forward
+    attn = attn / (Q.size(-1) ** 0.5)
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 92.00 MiB. GPU 0 has a total capacity of 15.46 GiB of which 50.88 MiB is free. Including non-PyTorch memory, this process has 14.72 GiB memory in use. Of the allocated memory 14.21 GiB is allocated by PyTorch, and 238.25 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[0m

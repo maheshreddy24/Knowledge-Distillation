@@ -1,0 +1,104 @@
+2026-03-13 18:09:38,611 - INFO - Resuming training
+2026-03-13 18:09:38,682 - INFO - Checkpoint loaded from: generation_loss/2026-03-12_18-01-44/model_epoch_0.pth, epoch: 0
+2026-03-13 18:09:38,683 - INFO - 
+Epoch 0/100
+2026-03-13 20:54:15,903 - INFO - Epoch 0, Average Loss: 2.5655
+2026-03-13 20:54:16,077 - INFO - Checkpoint saved at: generation_loss/2026-03-13_18-09-38/model_epoch_0.pth
+2026-03-13 20:56:51,783 - INFO - Test Accuracy: 61.4180
+2026-03-13 20:56:51,785 - INFO - 
+Epoch 1/100
+2026-03-13 23:41:33,601 - INFO - Epoch 1, Average Loss: 2.4333
+2026-03-13 23:41:33,691 - INFO - Checkpoint saved at: generation_loss/2026-03-13_18-09-38/model_epoch_1.pth
+2026-03-13 23:44:09,857 - INFO - Test Accuracy: 61.9400
+2026-03-13 23:44:09,858 - INFO - 
+Epoch 2/100
+2026-03-14 02:28:59,936 - INFO - Epoch 2, Average Loss: 2.3930
+2026-03-14 02:29:00,043 - INFO - Checkpoint saved at: generation_loss/2026-03-13_18-09-38/model_epoch_2.pth
+2026-03-14 02:31:38,398 - INFO - Test Accuracy: 61.9520
+2026-03-14 02:31:38,400 - INFO - 
+Epoch 3/100
+2026-03-14 05:16:31,935 - INFO - Epoch 3, Average Loss: 2.3752
+2026-03-14 05:16:32,028 - INFO - Checkpoint saved at: generation_loss/2026-03-13_18-09-38/model_epoch_3.pth
+2026-03-14 05:19:08,197 - INFO - Test Accuracy: 62.0740
+2026-03-14 05:19:08,198 - INFO - 
+Epoch 4/100
+2026-03-14 08:03:50,599 - INFO - Epoch 4, Average Loss: 2.3629
+2026-03-14 08:03:50,720 - INFO - Checkpoint saved at: generation_loss/2026-03-13_18-09-38/model_epoch_4.pth
+2026-03-14 08:06:22,035 - INFO - Test Accuracy: 62.2680
+2026-03-14 08:06:22,036 - INFO - 
+Epoch 5/100
+2026-03-14 10:51:14,662 - INFO - Epoch 5, Average Loss: 2.3491
+2026-03-14 10:51:14,728 - INFO - Checkpoint saved at: generation_loss/2026-03-13_18-09-38/model_epoch_5.pth
+2026-03-14 10:53:48,528 - INFO - Test Accuracy: 62.3140
+2026-03-14 10:53:48,529 - INFO - 
+Epoch 6/100
+2026-03-14 13:38:41,993 - INFO - Epoch 6, Average Loss: 2.3391
+2026-03-14 13:38:42,062 - INFO - Checkpoint saved at: generation_loss/2026-03-13_18-09-38/model_epoch_6.pth
+2026-03-14 13:41:14,004 - INFO - Test Accuracy: 62.1880
+2026-03-14 13:41:14,005 - INFO - 
+Epoch 7/100
+2026-03-14 16:26:12,166 - INFO - Epoch 7, Average Loss: 2.3290
+2026-03-14 16:26:12,233 - INFO - Checkpoint saved at: generation_loss/2026-03-13_18-09-38/model_epoch_7.pth
+2026-03-14 16:28:46,610 - INFO - Test Accuracy: 62.2560
+2026-03-14 16:28:46,612 - INFO - 
+Epoch 8/100
+2026-03-14 19:13:51,144 - INFO - Epoch 8, Average Loss: 2.3236
+2026-03-14 19:13:51,257 - INFO - Checkpoint saved at: generation_loss/2026-03-13_18-09-38/model_epoch_8.pth
+2026-03-14 19:16:24,934 - INFO - Test Accuracy: 62.5120
+2026-03-14 19:16:24,936 - INFO - 
+Epoch 9/100
+2026-03-14 22:01:30,458 - INFO - Epoch 9, Average Loss: 2.3186
+2026-03-14 22:01:30,641 - INFO - Checkpoint saved at: generation_loss/2026-03-13_18-09-38/model_epoch_9.pth
+2026-03-14 22:04:06,906 - INFO - Test Accuracy: 62.5560
+2026-03-14 22:04:06,908 - INFO - 
+Epoch 10/100
+2026-03-15 00:49:09,781 - INFO - Epoch 10, Average Loss: 2.3137
+2026-03-15 00:49:09,881 - INFO - Checkpoint saved at: generation_loss/2026-03-13_18-09-38/model_epoch_10.pth
+2026-03-15 00:51:44,927 - INFO - Test Accuracy: 62.4260
+2026-03-15 00:51:44,928 - INFO - 
+Epoch 11/100
+2026-03-15 03:36:40,635 - INFO - Epoch 11, Average Loss: 2.3117
+2026-03-15 03:36:40,710 - INFO - Checkpoint saved at: generation_loss/2026-03-13_18-09-38/model_epoch_11.pth
+2026-03-15 03:39:14,259 - INFO - Test Accuracy: 62.6520
+2026-03-15 03:39:14,261 - INFO - 
+Epoch 12/100
+2026-03-15 06:24:11,491 - INFO - Epoch 12, Average Loss: 2.3102
+2026-03-15 06:24:11,564 - INFO - Checkpoint saved at: generation_loss/2026-03-13_18-09-38/model_epoch_12.pth
+2026-03-15 06:26:46,001 - INFO - Test Accuracy: 62.5520
+2026-03-15 06:26:46,003 - INFO - 
+Epoch 13/100
+2026-03-15 09:11:42,602 - INFO - Epoch 13, Average Loss: 2.3072
+2026-03-15 09:11:42,666 - INFO - Checkpoint saved at: generation_loss/2026-03-13_18-09-38/model_epoch_13.pth
+2026-03-15 09:14:16,853 - INFO - Test Accuracy: 62.7660
+2026-03-15 09:14:16,855 - INFO - 
+Epoch 14/100
+2026-03-15 11:59:20,326 - INFO - Epoch 14, Average Loss: 2.3002
+2026-03-15 11:59:20,412 - INFO - Checkpoint saved at: generation_loss/2026-03-13_18-09-38/model_epoch_14.pth
+2026-03-15 12:02:02,986 - INFO - Test Accuracy: 62.7220
+2026-03-15 12:02:02,987 - INFO - 
+Epoch 15/100
+2026-03-15 14:47:05,659 - INFO - Epoch 15, Average Loss: 2.3011
+2026-03-15 14:47:05,745 - INFO - Checkpoint saved at: generation_loss/2026-03-13_18-09-38/model_epoch_15.pth
+2026-03-15 14:49:42,009 - INFO - Test Accuracy: 62.6720
+2026-03-15 14:49:42,010 - INFO - 
+Epoch 16/100
+2026-03-15 17:34:50,347 - INFO - Epoch 16, Average Loss: 2.2993
+2026-03-15 17:34:50,439 - INFO - Checkpoint saved at: generation_loss/2026-03-13_18-09-38/model_epoch_16.pth
+2026-03-15 17:37:25,421 - INFO - Test Accuracy: 62.8000
+2026-03-15 17:37:25,423 - INFO - 
+Epoch 17/100
+2026-03-15 20:22:31,648 - INFO - Epoch 17, Average Loss: 2.2982
+2026-03-15 20:22:31,734 - INFO - Checkpoint saved at: generation_loss/2026-03-13_18-09-38/model_epoch_17.pth
+2026-03-15 20:25:07,314 - INFO - Test Accuracy: 62.7060
+2026-03-15 20:25:07,315 - INFO - 
+Epoch 18/100
+2026-03-15 23:10:08,812 - INFO - Epoch 18, Average Loss: 2.2953
+2026-03-15 23:10:08,882 - INFO - Checkpoint saved at: generation_loss/2026-03-13_18-09-38/model_epoch_18.pth
+2026-03-15 23:12:46,536 - INFO - Test Accuracy: 62.8620
+2026-03-15 23:12:46,538 - INFO - 
+Epoch 19/100
+2026-03-16 01:57:42,582 - INFO - Epoch 19, Average Loss: 2.2937
+2026-03-16 01:57:42,643 - INFO - Checkpoint saved at: generation_loss/2026-03-13_18-09-38/model_epoch_19.pth
+2026-03-16 02:00:19,827 - INFO - Test Accuracy: 62.7260
+2026-03-16 02:00:19,829 - INFO - 
+Epoch 20/100

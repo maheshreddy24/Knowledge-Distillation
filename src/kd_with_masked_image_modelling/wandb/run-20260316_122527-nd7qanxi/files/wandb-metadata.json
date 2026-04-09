@@ -1,0 +1,44 @@
+{
+  "os":  "Linux-6.8.0-101-generic-x86_64-with-glibc2.35",
+  "python":  "CPython 3.10.19",
+  "startedAt":  "2026-03-16T06:55:27.428604Z",
+  "args":  [
+    "--output_dir",
+    "generation_loss"
+  ],
+  "program":  "/media/system/ZERBUIS_EXT_STOR/dynamic_slam/src/extended_kd/main.py",
+  "codePath":  "src/extended_kd/main.py",
+  "codePathLocal":  "main.py",
+  "git":  {
+    "remote":  "https://github.com/maheshzebu/dynamic_slam.git",
+    "commit":  "ef458f1c4c1617cbf1323856220a94d0cf3abcb2"
+  },
+  "email":  "maheshreddy.t@zebu.ai",
+  "root":  "/media/system/ZERBUIS_EXT_STOR/dynamic_slam/src/extended_kd",
+  "host":  "system",
+  "executable":  "/home/system/miniconda3/envs/dl/bin/python3",
+  "cpu_count":  20,
+  "cpu_count_logical":  28,
+  "gpu":  "NVIDIA GeForce RTX 5070 Ti",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "982820896768",
+      "used":  "828371038208"
+    }
+  },
+  "memory":  {
+    "total":  "33400901632"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce RTX 5070 Ti",
+      "memoryTotal":  "17094934528",
+      "cudaCores":  8960,
+      "architecture":  "Blackwell",
+      "uuid":  "GPU-0b7cd37c-caa3-5c85-fca2-39d6b6ebc448"
+    }
+  ],
+  "cudaVersion":  "13.1",
+  "writerId":  "1m95ddsi4koiyi8dbgw01zd56554zub0"
+}
